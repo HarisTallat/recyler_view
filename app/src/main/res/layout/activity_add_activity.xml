@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pn2"
+    android:orientation="vertical"
+    tools:context=".Add_activity">
+
+    <ImageView
+
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginLeft="330dp"
+        app:srcCompat="@drawable/camera" />
+
+    <TextView
+        android:id="@+id/etview"
+        android:layout_width="match_parent"
+        android:layout_height="42dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="386dp"
+        android:layout_height="186dp"
+        app:srcCompat="@drawable/kindpng_15359" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="411dp"
+        android:layout_height="77dp"
+        android:layout_margin="7dp"
+        android:layout_marginLeft="30dp"
+
+
+        android:fontFamily="@font/bevan"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Add Coctact Details"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="7dp"
+        android:background="@drawable/edit_design"
+        android:drawableRight="@drawable/person"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_margin="7dp"
+        android:background="@drawable/edit_design"
+        android:drawableRight="@drawable/email"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etaddress"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_margin="7dp"
+        android:background="@drawable/edit_design"
+        android:drawableRight="@drawable/call"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etdob"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_margin="7dp"
+        android:background="@drawable/edit_design"
+        android:drawableRight="@drawable/date"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Date of Birth"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/no"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_margin="7dp"
+        android:background="@drawable/edit_design"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Contacts"
+        android:text=""
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivback"
+        android:layout_width="63dp"
+        android:layout_height="48dp"
+        android:layout_margin="5dp"
+        android:layout_marginRight="250dp"
+        android:background="@drawable/edit_design"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_ios_new_24" />
+
+</LinearLayout>

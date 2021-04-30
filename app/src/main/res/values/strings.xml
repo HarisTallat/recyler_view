@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">recyler_view</string>
+    <string name="haris_tallat">Haris Tallat</string>
+    <string name="favourite_contacts">Favourite Contacts</string>
+    <string name="searching">Searching...</string>
+    <string name="logos">TODO</string>
+    <string name="fb">fb</string>
+</resources>

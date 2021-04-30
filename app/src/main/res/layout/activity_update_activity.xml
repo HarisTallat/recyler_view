@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context=".update_activity"
+    style="@style/LinearLayout">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="102dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="300dp"
+        app:srcCompat="@drawable/camera"
+        tools:layout_editor_absoluteX="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="411dp"
+        android:layout_height="201dp"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/kindpng_15359" />
+
+    <EditText
+
+        android:id="@+id/d_name"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="63dp"
+        android:background="@drawable/edit_design"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/d_no"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="8dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edit_design"
+        android:drawableRight="@drawable/call"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/white"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/d_email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edit_design"
+        android:drawableRight="@drawable/video"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/d_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edit_design"
+        android:drawableRight="@drawable/location"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/d_dobb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edit_design"
+        android:drawableRight="@drawable/date"
+        android:ems="10"
+        android:gravity="center"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_button_design"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_ios_new_24" />
+
+        <ImageView
+            android:id="@+id/call"
+
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_design2"
+            app:srcCompat="@drawable/call" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_design2"
+            app:srcCompat="@drawable/video" />
+
+        <ImageView
+
+            android:id="@+id/update"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_button_design"
+            app:srcCompat="@drawable/update" />
+    </LinearLayout>
+
+</LinearLayout>
